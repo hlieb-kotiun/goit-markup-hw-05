@@ -469,7 +469,12 @@
           <div class="form-container">
             <label class="form-label" for="user-name">Name</label>
             <div class="input-wrapper">
-              <input class="form-input" type="text" id="user-name" />
+              <input
+                class="form-input"
+                name="user-name"
+                type="text"
+                id="user-name"
+              />
               <svg class="footer-icon" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
@@ -499,13 +504,15 @@
               class="form-comment"
               id="user-comment"
               placeholder="Text input"
+              name="user-comment"
             ></textarea>
           </div>
           <div class="modal-checkbox">
             <input
-              class="checkbox-input visually-hidden"
+              class="form-input visually-hidden"
               id="user-checkbox"
               type="checkbox"
+              value="true"
             />
             <label class="checkbox-label" for="user-checkbox">
               <span class="custom-checkbox"
