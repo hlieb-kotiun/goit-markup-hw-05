@@ -655,6 +655,10 @@ img{
 }
 
 .form-container {
+    margin-bottom: 8px;
+}
+
+.form-container-checkbox{
     margin-bottom: 16px;
 }
 
