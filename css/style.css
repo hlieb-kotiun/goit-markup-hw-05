@@ -655,7 +655,7 @@ img{
 }
 
 .form-container {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .form-label {
@@ -737,7 +737,7 @@ img{
 }
 
 .modal-checkbox{
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .custom-checkbox{
